@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,violet,royalblue);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    padding: 50px;
+    margin: 30px;
+}
+.block{
+    display: grid;
+    grid-gap: 10px;
+}
+.menu{
+    display: grid;
+}
+.menu ul{
+    display: grid;
+    grid-gap: 5px;
+    list-style: none;
+    grid-template-columns:  repeat(auto-fit, minmax(100px, 1fr));
+}
+.menu a{
+    background: pink;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+.layer{
+    display: flex;
+    margin: 10px;
+    position: absolute;
+    left: 800px;
+    padding-top: 50px;
+}
+.heading,.about{
+    background: linear-gradient(to top,dodgerblue,aqua);
+    padding: 40px;
+    color: deeppink;
+    font-size: 20px;
+    padding-top: 50px;
+    top: 225px;
+    position: absolute;
+    margin-right: 500px;
+}
+.features{
+    display: grid;
+    grid-gap: 10px;
+}
+.featre{
+    display: grid;
+}
+.features{
+    padding: 500px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    display: grid;
+    grid-gap: 10px;
+}
+.featre{
+   position: absolute;
+   left: 70px;
+}
+.featre:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+     box-shadow: 0px 0px 5px 5px red;
+}
+.featres:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+     box-shadow: 0px 0px 7px 7px yellow;
+}
+.featress:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+     box-shadow: 0px 0px 7px 7px limegreen;
+}
+.write{
+    background: aqua;
+    color: darkblue;
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+   text-align: left;
+   text-align: center;
+   top: 1200px;
+   left: 50px;
+}
+.heading2{
+    position: absolute;
+    color: navy;
+    font-size: 50px;
+    top: 700px;
+    left: 390px;
+}
+.featres{
+    position: absolute;
+   top: 860px;
+   left: 520px;
+}
+.writes{
+    background: aqua;
+    color: darkblue;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    left: 540px;
+    position: absolute;
+    top: 1200px;
+}
+.drone:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+     box-shadow: 0px 0px 5px 5px aqua;
+}
+.dron:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+     box-shadow: 0px 0px 5px 5px blue;
+}
+.featress{
+    position: absolute;
+    left: 980px;
+    top: 860px;
+}
+.writese{
+    background: aqua;
+    color: darkblue;
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 1200px;
+    text-align: center;
+    left: 970px;
+}
+.shop{
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+}
+.shops{
+      text-align: center;
+      color: yellow;
+      font-size: 25px;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: -800px;
+      margin-left: 700px;
+}
+.shopnow{
+    text-align: center;
+    color: maroon;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 130%;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+.styled-link{
+    background: linear-gradient(white,aqua);
+    position: absolute;
+    border: 3px solid deeppink;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    left: 980px;
+    top: 1930px;
+    text-decoration: none;
+}
+.know{
+    position: absolute;
+    top: 530px;
+    left: 600px;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+}
+.info{
+    background: lime;
+
+}
+.head{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    text-align: center;
+}
+.rate{
+    padding: 200px;
+    color: crimson;
+    font-size: 60px;
+    text-align: center;
+}
+.star{
+   position: absolute;
+   top: 2200px;
+   left: 300px;
+}
+.star:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+     box-shadow: 0px 0px 5px 5px gold;
+}
+.customer a{
+    position: absolute;
+    font-size: 40px;
+    text-decoration: underline;
+    color: yellow;
+    top: 2350px;
+    left: 700px;
+}
